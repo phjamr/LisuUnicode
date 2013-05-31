@@ -1,0 +1,61 @@
+// based on a keyboard map from an 'xkb/symbols/' file
+
+partial default alphanumeric_keys
+xkb_symbols "lisu" {
+    name[Group1]="Lisu";
+
+// Alphanumeric section
+    key <AE01>  { [      1,     exclam,  onesuperior,   exclamdown ]  };
+    key <AE02>  { [      2,         at,  twosuperior,    oneeighth ]  };
+    key <AE03>  { [      3, numbersign, threesuperior,    sterling ]  };
+    key <AE04>  { [      4,     dollar,   onequarter,          yen ]  };
+    key <AE05>  { [      5,    percent,      onehalf, threeeighths ]  };
+    key <AE06>  { [      6, asciicircum, threequarters, fiveeighths ] };
+    key <AE07>  { [      7,  ampersand,    braceleft, seveneighths ]  };
+    key <AE08>  { [      8,   asterisk,  bracketleft,    trademark ]  };
+    key <AE09>  { [      9,  parenleft, bracketright,    plusminus ]  };
+    key <AE10>  { [      0, parenright,   braceright,       degree ]  };
+    key <AE11>  { [ minus, underscore,    backslash, questiondown ]  };
+    key <AE12>  { [ equal,       plus ]  };
+
+    key <AD01> { [ VoidSymbol, VoidSymbol, q, Q ] };
+    key <AD02> { [      UA4EA, VoidSymbol, w, W ] };
+    key <AD03> { [      UA4F0,      UA4F1, e, E ] };
+    key <AD04> { [      UA4E3,      UA4E4, r, R ] };
+    key <AD05> { [      UA4D4,      UA4D5, t, T ] };
+    key <AD06> { [      UA4EC, VoidSymbol, y, Y ] };
+    key <AD07> { [      UA4F4,      UA4F5, u, U ] };
+    key <AD08> { [      UA4F2, VoidSymbol, i, I ] };
+    key <AD09> { [      UA4F3, VoidSymbol, o, O ] };
+    key <AD10> { [      UA4D1,      UA4D2, p, P ] };
+    key <AD11> { [      UA4F8, UA4FA, braceleft,  bracketleft ] };
+    key <AD12> { [      UA4F9, UA4FB, braceright, bracketright ] };
+
+    key <AC01> { [ UA4EE,      UA4EF, a, A ] };
+    key <AC02> { [ UA4E2, VoidSymbol, s, S ] };
+    key <AC03> { [ UA4D3,      UA4F7, d, D ] };
+    key <AC04> { [ UA4DD,      UA4DE, f, F ] };
+    key <AC05> { [ UA4D6,      UA4E8, g, G ] };
+    key <AC06> { [ UA4E7, VoidSymbol, h, H ] };
+    key <AC07> { [ UA4D9,      UA4E9, j, J ] };
+    key <AC08> { [ UA4D7,      UA4D8, k, K ] };
+    key <AC09> { [ UA4E1,      UA4F6, l, L ] };
+    key <AC10> { [ UA4FC,      UA4FD, semicolon,  colon ] };
+    key <AC11> { [ U02BC, VoidSymbol, apostrophe, quotedbl ] };
+
+    key <AB01> { [ UA4DC, VoidSymbol, z, Z ] };
+    key <AB02> { [ UA4EB, VoidSymbol, x, X ] };
+    key <AB03> { [ UA4DA,      UA4DB, c, C ] };
+    key <AB04> { [ UA4E6,      UA4E5, v, V ] };
+    key <AB05> { [ UA4D0,      UA4ED, b, B ] };
+    key <AB06> { [ UA4E0, VoidSymbol, n, N ] };
+    key <AB07> { [ UA4DF, VoidSymbol, m, M ] };
+    key <AB08> { [ UA4FE, VoidSymbol, comma, less     ] };
+    key <AB09> { [ UA4FF, VoidSymbol, period, greater ] };
+    key <AB10> { [ U02CD, VoidSymbol, slash, question      ] };
+    
+    key <BKSL> { [ backslash, bar ] };
+
+// End alphanumeric section
+include "level3(ralt_switch)"
+};
